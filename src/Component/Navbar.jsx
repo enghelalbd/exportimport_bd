@@ -2,14 +2,18 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <div className="flex">
-      <h1> Helal foodbd</h1>
-      <div>
-        <h1>All Products</h1>
-        <h1>My Exports</h1>
-        <h1>My Imports</h1>
-      </div>
+    <div style={{ display: "flex", justifyContent: "space-between" }}>
+      <img src="./logo.png" alt="logo" width={50} />
 
+      <div>
+        <ul  >
+          <li>All Products</li>
+
+          <li>My Exports</li>
+          
+          <li>My Imports </li>
+        </ul>
+      </div>
       <button>Login</button>
     </div>
   );
