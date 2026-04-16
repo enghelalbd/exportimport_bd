@@ -4,15 +4,16 @@ import "./App.css";
 import Navbar from "./Component/Navbar";
 import Footer from "./Component/Footer";
 import Banner from "./Component/Banner";
-import Signup from "./Component/Signup";
+
+import Login from "./Component/Login";
 
 function App() {
   return (
     <>
       <Navbar />
-      <Signup />
-      <Banner />
 
+      <Banner />
+      <Login />
       <Footer />
     </>
   );
