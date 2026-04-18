@@ -1,0 +1,37 @@
+[
+  {
+    "productImage": "https://images.pexels.com/photos/3296390/pexels-photo-3296390.jpeg",
+    "productName": "Fresh Salmon Fish",
+    "price": 12.99,
+    "originCountry": "Norway",
+    "rating": 4.5
+  },
+  {
+    "productImage": "https://images.pexels.com/photos/3296434/pexels-photo-3296434.jpeg",
+    "productName": "Raw Shrimp",
+    "price": 8.75,
+    "originCountry": "Bangladesh",
+    "rating": 4.2
+  },
+  {
+    "productImage": "https://images.pexels.com/photos/725991/pexels-photo-725991.jpeg",
+    "productName": "Tuna Fish Steak",
+    "price": 15.5,
+    "originCountry": "Japan",
+    "rating": 4.8
+  },
+  {
+    "productImage": "https://images.pexels.com/photos/566345/pexels-photo-566345.jpeg",
+    "productName": "Fresh Crab",
+    "price": 18.0,
+    "originCountry": "USA",
+    "rating": 4.6
+  },
+  {
+    "productImage": "https://images.pexels.com/photos/3296396/pexels-photo-3296396.jpeg",
+    "productName": "Hilsa Fish (Ilish)",
+    "price": 20.0,
+    "originCountry": "Bangladesh",
+    "rating": 4.9
+  }
+]

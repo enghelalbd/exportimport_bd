@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const banners = ["/Images/1.jpg", "/Images/3.jpg"];
+const banners = ["/Images/1.jpg", "/Images/2.jpg", "/Images/3.jpg"];
 
 const Banner = () => {
   const [index, setIndex] = useState(0);
@@ -21,7 +21,14 @@ const Banner = () => {
         style={{ width: "100%", height: "auto" }}
       />
 
-      <div style={{ marginTop: "10px" }}>
+      <div
+        style={{
+          marginTop: "10px",
+          display: "flex",
+          justifyContent: "center",
+          gap: "20px",
+        }}
+      >
         <button onClick={prevSlide}>Prev</button>
         <button onClick={nextSlide}>Next</button>
       </div>
