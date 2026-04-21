@@ -1,37 +1,162 @@
 [
   {
-    "productImage": "https://images.pexels.com/photos/3296390/pexels-photo-3296390.jpeg",
-    "productName": "Fresh Salmon Fish",
-    "price": 12.99,
-    "originCountry": "Norway",
-    "rating": 4.5
+    "productImage": "https://example.com/img1.jpg",
+    "productName": "Wireless Mouse",
+    "price": 15.99,
+    "originCountry": "China",
+    "rating": 4.3,
+    "availableQuantity": 120
   },
   {
-    "productImage": "https://images.pexels.com/photos/3296434/pexels-photo-3296434.jpeg",
-    "productName": "Raw Shrimp",
-    "price": 8.75,
-    "originCountry": "Bangladesh",
-    "rating": 4.2
-  },
-  {
-    "productImage": "https://images.pexels.com/photos/725991/pexels-photo-725991.jpeg",
-    "productName": "Tuna Fish Steak",
-    "price": 15.5,
-    "originCountry": "Japan",
-    "rating": 4.8
-  },
-  {
-    "productImage": "https://images.pexels.com/photos/566345/pexels-photo-566345.jpeg",
-    "productName": "Fresh Crab",
-    "price": 18.0,
+    "productImage": "https://example.com/img2.jpg",
+    "productName": "Bluetooth Headphones",
+    "price": 29.99,
     "originCountry": "USA",
-    "rating": 4.6
+    "rating": 4.5,
+    "availableQuantity": 85
   },
   {
-    "productImage": "https://images.pexels.com/photos/3296396/pexels-photo-3296396.jpeg",
-    "productName": "Hilsa Fish (Ilish)",
-    "price": 20.0,
+    "productImage": "https://example.com/img3.jpg",
+    "productName": "Gaming Keyboard",
+    "price": 45.5,
+    "originCountry": "Germany",
+    "rating": 4.6,
+    "availableQuantity": 60
+  },
+  {
+    "productImage": "https://example.com/img4.jpg",
+    "productName": "Smart Watch",
+    "price": 99.99,
+    "originCountry": "Japan",
+    "rating": 4.4,
+    "availableQuantity": 40
+  },
+  {
+    "productImage": "https://example.com/img5.jpg",
+    "productName": "USB Flash Drive 64GB",
+    "price": 10.0,
+    "originCountry": "South Korea",
+    "rating": 4.2,
+    "availableQuantity": 200
+  },
+  {
+    "productImage": "https://example.com/img6.jpg",
+    "productName": "Laptop Backpack",
+    "price": 25.75,
+    "originCountry": "India",
+    "rating": 4.3,
+    "availableQuantity": 90
+  },
+  {
+    "productImage": "https://example.com/img7.jpg",
+    "productName": "Portable Charger",
+    "price": 18.49,
+    "originCountry": "China",
+    "rating": 4.1,
+    "availableQuantity": 150
+  },
+  {
+    "productImage": "https://example.com/img8.jpg",
+    "productName": "LED Desk Lamp",
+    "price": 22.99,
+    "originCountry": "Thailand",
+    "rating": 4.4,
+    "availableQuantity": 70
+  },
+  {
+    "productImage": "https://example.com/img9.jpg",
+    "productName": "Wireless Earbuds",
+    "price": 35.0,
+    "originCountry": "USA",
+    "rating": 4.5,
+    "availableQuantity": 110
+  },
+  {
+    "productImage": "https://example.com/img10.jpg",
+    "productName": "External Hard Drive 1TB",
+    "price": 55.0,
+    "originCountry": "Japan",
+    "rating": 4.6,
+    "availableQuantity": 45
+  },
+  {
+    "productImage": "https://example.com/img11.jpg",
+    "productName": "Webcam HD",
+    "price": 27.99,
+    "originCountry": "Canada",
+    "rating": 4.2,
+    "availableQuantity": 65
+  },
+  {
+    "productImage": "https://example.com/img12.jpg",
+    "productName": "Mechanical Pencil",
+    "price": 3.5,
+    "originCountry": "Germany",
+    "rating": 4.0,
+    "availableQuantity": 300
+  },
+  {
+    "productImage": "https://example.com/img13.jpg",
+    "productName": "Notebook A5",
+    "price": 5.99,
     "originCountry": "Bangladesh",
-    "rating": 4.9
+    "rating": 4.3,
+    "availableQuantity": 250
+  },
+  {
+    "productImage": "https://example.com/img14.jpg",
+    "productName": "Office Chair",
+    "price": 120.0,
+    "originCountry": "Malaysia",
+    "rating": 4.5,
+    "availableQuantity": 30
+  },
+  {
+    "productImage": "https://example.com/img15.jpg",
+    "productName": "Water Bottle",
+    "price": 8.99,
+    "originCountry": "India",
+    "rating": 4.2,
+    "availableQuantity": 180
+  },
+  {
+    "productImage": "https://example.com/img16.jpg",
+    "productName": "Smartphone Stand",
+    "price": 6.49,
+    "originCountry": "China",
+    "rating": 4.1,
+    "availableQuantity": 210
+  },
+  {
+    "productImage": "https://example.com/img17.jpg",
+    "productName": "Digital Alarm Clock",
+    "price": 14.99,
+    "originCountry": "USA",
+    "rating": 4.3,
+    "availableQuantity": 95
+  },
+  {
+    "productImage": "https://example.com/img18.jpg",
+    "productName": "Tablet 10 inch",
+    "price": 150.0,
+    "originCountry": "South Korea",
+    "rating": 4.4,
+    "availableQuantity": 25
+  },
+  {
+    "productImage": "https://example.com/img19.jpg",
+    "productName": "Fitness Tracker",
+    "price": 49.99,
+    "originCountry": "Japan",
+    "rating": 4.5,
+    "availableQuantity": 55
+  },
+  {
+    "productImage": "https://example.com/img20.jpg",
+    "productName": "Noise Cancelling Headphones",
+    "price": 89.99,
+    "originCountry": "Germany",
+    "rating": 4.7,
+    "availableQuantity": 35
   }
 ]

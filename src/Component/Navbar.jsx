@@ -8,9 +8,9 @@ const Navbar = () => {
 
       <div className=" flex gap-5 text-blue-400">
         <NavLink to="/">All Products</NavLink>
-        <NavLink to="/signup">My Exports</NavLink>
-        <NavLink to="/login">My Imports</NavLink>
-        <NavLink to="/contact">Add Exports</NavLink>
+        <NavLink to="/MyExports">My Exports</NavLink>
+        <NavLink to="/MyImports">My Imports</NavLink>
+        <NavLink to="/AddExports">Add Exports</NavLink>
       </div>
 
       <NavLink to="/login">

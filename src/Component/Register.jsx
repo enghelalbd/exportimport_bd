@@ -6,6 +6,8 @@ import {
   updateProfile,
   GoogleAuthProvider,
   signInWithPopup,
+  sendEmailVerification,
+  signOut,
 } from "firebase/auth";
 import { auth } from "../firebase/firebase.config";
 
@@ -16,6 +18,7 @@ const Register = () => {
   const [photoURL, setPhotoURL] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const [loading, setLoading] = useState(false);
 
   const validatePassword = (pass) => {
     if (pass.length < 6) {
@@ -39,6 +42,8 @@ const Register = () => {
       return;
     }
 
+    setLoading(true);
+
     try {
       const result = await createUserWithEmailAndPassword(
         auth,
@@ -53,10 +58,22 @@ const Register = () => {
         photoURL: photoURL,
       });
 
-      toast.success("Registration successful!");
-      navigate("/");
+      // send email verification
+      await sendEmailVerification(user);
+
+      // optional logout until verified
+      await signOut(auth);
+
+      toast.success("Registration successful! Please verify your email.");
+      navigate("/login");
     } catch (error) {
-      toast.error(error.message);
+      if (error.code === "auth/email-already-in-use") {
+        toast.error("Email already exists");
+      } else {
+        toast.error(error.message);
+      }
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -117,9 +134,10 @@ const Register = () => {
 
           <button
             type="submit"
-            className="w-full bg-green-500 text-white p-2 rounded hover:bg-green-600"
+            disabled={loading}
+            className="w-full bg-green-500 text-white p-2 rounded hover:bg-green-600 disabled:opacity-50"
           >
-            Register
+            {loading ? "Registering..." : "Register"}
           </button>
         </form>
 

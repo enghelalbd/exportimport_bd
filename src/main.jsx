@@ -6,6 +6,8 @@ import "./index.css";
 import App from "./App.jsx";
 import Login from "./Component/Login.jsx";
 import Register from "./Component/Register.jsx";
+import MyImports from "./Pages/MyImports.jsx";
+import AddExport from "./Pages/AddExports.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +21,23 @@ const router = createBrowserRouter([
   {
     path: "/register",
     element: <Register />,
+  },
+  {
+    path: "/MyExports",
+    element: <MyExports />,
+  },
+  {
+    path: "/MyImports",
+    element: <MyImports />,
+  },
+
+  {
+    path: "/AddExports",
+    element: <AddExport />,
+  },
+  {
+    path: "*",
+    element: <div>404 Not Found</div>,
   },
 ]);
 

@@ -31,6 +31,7 @@ const Login = () => {
       toast.error(error.message);
     }
   };
+  console.log("Login component rendered", { email, password });
 
   const handleGoogleLogin = async () => {
     const provider = new GoogleAuthProvider();
@@ -80,7 +81,7 @@ const Login = () => {
         {/* Google Login */}
         <button
           onClick={handleGoogleLogin}
-          className="w-full mt-4 bg-red-500 text-white p-2 rounded hover:bg-red-600"
+          className="w-full mt-4 bg-green-500 text-white p-2 rounded hover:bg-green-600"
         >
           Continue with Google
         </button>
