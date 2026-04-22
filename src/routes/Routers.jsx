@@ -41,7 +41,3 @@ export const router = createBrowserRouter([
     element: <div>404 Not Found</div>,
   },
 ]);
-
-const root = document.getElementById("root");
-
-ReactDOM.createRoot(root).render(<RouterProvider router={router} />);
