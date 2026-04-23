@@ -9,6 +9,7 @@ import AddExport from "../Pages/AddExports.jsx";
 import MyExports from "../Pages/MyExports.jsx";
 import Login from "../Component/Login.jsx";
 import App from "../App.jsx";
+import AllProducts from "../Pages/AllProducts.jsx";
 
 export const router = createBrowserRouter([
   {
@@ -22,6 +23,11 @@ export const router = createBrowserRouter([
   {
     path: "/register",
     element: <Register />,
+  },
+  {
+    path: "/AllProducts",
+    element: <AllProducts />,
+    loader: () => fetch("http://localhost:3000/products"),
   },
   {
     path: "/MyExports",

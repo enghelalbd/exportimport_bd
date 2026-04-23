@@ -7,7 +7,7 @@ const Navbar = () => {
       <button className="bg-blue-500 text-white px-4 py-2 rounded">Logo</button>
 
       <div className=" flex gap-5 text-blue-400">
-        <NavLink to="/">All Products</NavLink>
+        <NavLink to="/AllProducts">All Products</NavLink>
         <NavLink to="/MyExports">My Exports</NavLink>
         <NavLink to="/MyImports">My Imports</NavLink>
         <NavLink to="/AddExports">Add Exports</NavLink>
