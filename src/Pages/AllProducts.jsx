@@ -7,8 +7,8 @@ const AllProducts = () => {
 
   return (
     <div>
-      <h1 className="text-amber-600  text-center"> All Products </h1>
-      <div className=" w-full max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 bg-amber-500 mt-5 ">
+      <h1 className="text-amber-600  text-center mt-2"> All Products </h1>
+      <div className=" w-full max-w-6xl mx-auto p-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-5 ">
         {products.map((product) => (
           <div key={product.id} className="bg-white p-4 rounded shadow">
             <h2 className="text-lg font-bold mb-2">{product.name}</h2>
